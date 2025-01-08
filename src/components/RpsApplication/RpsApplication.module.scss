@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  //   background-color: white;
+}
+.app {
+  background-color: white;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}

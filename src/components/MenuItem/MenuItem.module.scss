@@ -1,0 +1,118 @@
+.large {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.75em;
+  padding-top: 0.28em;
+  padding-bottom: 0.28em;
+  color: #003399;
+  gap: 0.5em;
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  p {
+    font-family: 'Tahoma';
+    margin: 0;
+  }
+  &:nth-child(2),
+  &:nth-child(8) {
+    position: relative;
+    &:after {
+      content: '';
+      background: rgb(111, 110, 110);
+      position: absolute;
+      bottom: -5px;
+      left: 20%;
+      height: 1.5px;
+      width: 60%;
+    }
+  }
+}
+.medium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1.5em;
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  p {
+    font-family: 'Tahoma';
+    margin: 0;
+  }
+  &:nth-child(5),
+  &:nth-child(8) {
+    position: relative;
+    &:after {
+      content: '';
+      background: rgb(111, 110, 110);
+      position: absolute;
+      bottom: -5px;
+      left: 20%;
+      height: 1.5px;
+      width: 60%;
+    }
+  }
+  color: #003399;
+}
+.reversed {
+  flex-direction: row-reverse;
+  justify-content: center;
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  padding-top: 0.8em;
+}
+.x_large {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+  .icon {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(112, 104, 104);
+    box-shadow: 0px 3px 3px rgb(164, 154, 154), 0px -3px 3px rgb(164, 154, 154),
+      3px 0px 3px rgb(164, 154, 154), -3px 0px 3px rgb(164, 154, 154);
+    border-radius: 3px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  p {
+    font-family: 'Trebuchet MS';
+    font-size: 1.4em;
+    margin: 0;
+  }
+  color: white;
+}
+.small {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 1em;
+  gap: 0.25em;
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  p {
+    font-family: 'Tahoma';
+    font-size: 14px;
+    margin: 0;
+  }
+  color: white;
+}

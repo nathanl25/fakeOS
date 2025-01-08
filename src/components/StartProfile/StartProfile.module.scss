@@ -1,0 +1,19 @@
+.profile {
+  height: 15%;
+  //   border: 1px solid black;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1em;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 75, 215, 1) 0%,
+    rgba(0, 80, 238, 1) 30%,
+    rgba(0, 93, 255, 1) 55%,
+    rgba(0, 98, 255, 1) 60%,
+    rgba(0, 102, 255, 1) 65%,
+    rgba(9, 151, 255, 1) 100%
+  );
+}

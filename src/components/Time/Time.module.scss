@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Windows UI';
+  src: url('../../fonts/uiFont.ttf');
+}
+.time {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  font-family: 'Windows UI';
+  //   font-stretch: condensed;
+  //   font-size: 14px;
+  font-weight: 100;
+  border-left: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}

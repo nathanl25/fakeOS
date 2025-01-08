@@ -1,5 +1,10 @@
+import Desktop from './components/Desktop/Desktop';
 function App() {
-  return <></>;
+  return (
+    <>
+      <Desktop></Desktop>
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Internet",
+    "description": "Internet Explorer",
+    "size": "large",
+    "bold": true,
+    "url": "./src/assets/ie.png"
+  },
+  {
+    "name": "E-mail",
+    "description": "Outlook Express",
+    "size": "large",
+    "bold": true,
+    "url": "./src/assets/outlook.png"
+  },
+  {
+    "name": "Command Prompt",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/cmd.png"
+  },
+  {
+    "name": "MSN",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/MSN.png"
+  },
+  {
+    "name": "Windows Media Player",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/WMP.png"
+  },
+  {
+    "name": "Windows Messenger",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/messenger.png"
+  },
+  {
+    "name": "Notepad",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/notepad.png"
+  },
+  {
+    "name": "Tour Windows XP",
+    "size": "large",
+    "bold": false,
+    "url": "./src/assets/tourXP.png"
+  },
+  {
+    "name": "My Documents",
+    "size": "medium",
+    "bold": true,
+    "url": "./src/assets/documents.png"
+  },
+  {
+    "name": "My Recent Documents",
+    "size": "medium",
+    "bold": true,
+    "url": "./src/assets/recentDocs.png"
+  },
+  {
+    "name": "My Pictures",
+    "size": "medium",
+    "bold": true,
+    "url": "./src/assets/pictures.png"
+  },
+  {
+    "name": "My Music",
+    "size": "medium",
+    "bold": true,
+    "url": "./src/assets/music.png"
+  },
+  {
+    "name": "My Computer",
+    "size": "medium",
+    "bold": true,
+    "url": "./src/assets/computer.png"
+  },
+  {
+    "name": "Control Panel",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/controlPanel.png"
+  },
+  {
+    "name": "Set Program Access and Defaults",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/default.png"
+  },
+  {
+    "name": "Printers and Faxes",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/printers.png"
+  },
+  {
+    "name": "Help and Support",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/help.png"
+  },
+  {
+    "name": "Search",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/search.png"
+  },
+  {
+    "name": "Run...",
+    "size": "medium",
+    "bold": false,
+    "url": "./src/assets/run.png"
+  },
+  {
+    "name": "All Programs",
+    "size": "large",
+    "bold": true,
+    "url": "./src/assets/forward.png",
+    "reversed": true
+  },
+  {
+    "name": "Log Off",
+    "size": "small",
+    "bold": false,
+    "url": "./src/assets/logout.png"
+  },
+  {
+    "name": "Turn Off Computer",
+    "size": "small",
+    "bold": false,
+    "url": "./src/assets/power.png"
+  },
+  {
+    "name": "Admin",
+    "size": "x_large",
+    "bold": true,
+    "url": "./src/assets/ducky.png"
+  }
+]
